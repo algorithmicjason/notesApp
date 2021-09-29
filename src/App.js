@@ -21,7 +21,7 @@ function App() {
     });
   }
   return (
-    <>
+    <div style={{ background: "#FFFACD" }}>
       <Header />
       <FormArea addNote={addNote} />
       {notes.map((note, index) => (
@@ -34,7 +34,7 @@ function App() {
         />
       ))}
       <Footer />
-    </>
+    </div>
   );
 }
 
